@@ -1,4 +1,4 @@
-# @duiyuan/detect-provider
+# @dioxide-js/detect-provider
 
 A tiny utility for detecting the Dioxide-wallet provider which injected at `window.dioxide` after install the diox-wallet chrome extension.
 
