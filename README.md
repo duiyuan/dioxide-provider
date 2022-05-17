@@ -6,6 +6,12 @@ A tiny utility for detecting the Dioxide-wallet provider which injected at `wind
 
 #### ES Module
 
+#### Install
+
+```
+$ yarn add @dioxide-js/detect-provider
+```
+
 ```
 import detectDioxideProvider from '@dioxide-js/detect-provider'
 
