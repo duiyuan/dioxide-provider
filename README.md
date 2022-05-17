@@ -31,6 +31,21 @@ if (provider) {
 
 ```
 
+#### HTML
+
+```
+<script src="https://unpkg.com/@dioxide-js/detect-provider/dist/detect-provider.umd.min.js"></script>
+<script type="text/javascript">
+  const provider = await dioxideDetectProvider({timeout: 3000})
+  if (provider) {
+    // handle provider
+  } else {
+    // handle no provider
+  }
+</script>
+
+```
+
 #### Options
 
 ##### options.timeout

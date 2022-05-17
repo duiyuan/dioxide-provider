@@ -7,7 +7,7 @@ import json from 'rollup-plugin-json'
 
 const pkg = require('./package.json')
 
-const libraryName = 'provider'
+const libraryName = 'dioxide-detect-provider'
 
 export default {
   input: `src/index.ts`,
