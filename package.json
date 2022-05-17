@@ -1,18 +1,17 @@
 {
-  "name": "@duiyuan/dioxide-provider",
+  "name": "@dioxide-js/detect-provider",
   "version": "0.0.1",
-  "description": "",
+  "description": "A tiny utility for detecting the Dioxide-wallet provider which injected at window.dioxide.",
   "keywords": [
-    "node",
-    "git"
+    "wallet",
+    "dioxide"
   ],
   "homepage": "https://github.com/duiyuan/dioxide-provider",
-  "main": "dist/dioxide-provider.umd.js",
-  "module": "dist/dioxide-provider.es5.js",
-  "typings": "dist/types/dioxide-provider.d.ts",
+  "main": "dist/detect-provider.umd.js",
+  "module": "dist/detect-provider.es5.js",
+  "typings": "dist/types/detect-provider.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "author": "shangwenwang <shangwenwang20@gmail.com>",
   "repository": {
@@ -86,10 +85,7 @@
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "colors": "^1.3.2",
-    "commitizen": "^3.0.0",
-    "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
-    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -98,12 +94,10 @@
     "jest": "^23.6.0",
     "jest-config": "^23.6.0",
     "lint-staged": "^8.0.0",
-    "lodash.camelcase": "^4.3.0",
     "prettier": "^2.6.2",
-    "prompt": "^1.0.0",
-    "replace-in-file": "^3.4.2",
-    "rimraf": "^2.6.2",
+    "rimraf": "^3.0.2",
     "rollup": "^0.67.0",
+    "lodash.camelcase": "^4.3.0",
     "rollup-plugin-commonjs": "^9.1.8",
     "rollup-plugin-json": "^3.1.0",
     "rollup-plugin-node-resolve": "^3.4.0",
@@ -114,8 +108,5 @@
     "ts-node": "^7.0.1",
     "typescript": "^4.3.2"
   },
-  "dependencies": {
-    "@types/prompt": "^1.1.0",
-    "@types/shelljs": "^0.8.11"
-  }
+  "dependencies": {}
 }
