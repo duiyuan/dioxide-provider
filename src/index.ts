@@ -1,4 +1,4 @@
-interface DioxideWalletProvider {
+export interface DioxideWalletProvider {
   once(eventName: string, listener: (...args: any[]) => void): this
   on(eventName: string, listener: (...args: any[]) => void): this
   off(eventName: string, listener: (...args: any[]) => void): this
