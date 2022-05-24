@@ -9,7 +9,7 @@
   "homepage": "https://github.com/duiyuan/dioxide-provider",
   "main": "dist/detect-provider.umd.js",
   "module": "dist/detect-provider.es5.js",
-  "typings": "dist/types/detect-provider.d.ts",
+  "typings": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
