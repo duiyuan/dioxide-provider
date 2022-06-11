@@ -1,3 +1,7 @@
+export interface KeyValue<T = any> {
+  [key: string]: T
+}
+
 export interface DioxideWalletProvider {
   once(eventName: string, listener: (...args: any[]) => void): this
   on(eventName: string, listener: (...args: any[]) => void): this
@@ -5,6 +9,10 @@ export interface DioxideWalletProvider {
   addListener(eventName: string, listener: (...args: any[]) => void): this
   removeListener(eventName: string, listener: (...args: any[]) => void): this
   removeAllListeners(event?: string): this
+  request<T = KeyValue, K = any>(params: {
+    method: string
+    params: T
+  }): Promise<K>
 }
 
 /**
