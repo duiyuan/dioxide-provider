@@ -1,6 +1,6 @@
 {
   "name": "@dioxide-js/detect-provider",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A tiny utility for detecting the Dioxide-wallet provider which injected at window.dioxide.",
   "keywords": [
     "wallet",
