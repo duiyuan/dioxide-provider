@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/duiyuan/dioxide-provider/compare/v0.0.7...v0.0.8) (2022-10-26)
+
+
+### Features
+
+* add Dioxide types ([f6e8bde](https://github.com/duiyuan/dioxide-provider/commit/f6e8bded13dd626288f5677868dcf488d04a3266))
+* add type declaration ([12d1160](https://github.com/duiyuan/dioxide-provider/commit/12d116079f27a98848ec50c50f7a584debabbbca))
+
 ### [0.0.7](https://github.com/duiyuan/dioxide-provider/compare/v0.0.6...v0.0.7) (2022-06-11)
 
 ### [0.0.6](https://github.com/duiyuan/dioxide-provider/compare/v0.0.5...v0.0.6) (2022-05-24)
