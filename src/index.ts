@@ -1,19 +1,8 @@
-export interface KeyValue<T = any> {
-  [key: string]: T
-}
+import * as DioxideJS from './interface'
 
-export interface DioxideWalletProvider {
-  once(eventName: string, listener: (...args: any[]) => void): this
-  on(eventName: string, listener: (...args: any[]) => void): this
-  off(eventName: string, listener: (...args: any[]) => void): this
-  addListener(eventName: string, listener: (...args: any[]) => void): this
-  removeListener(eventName: string, listener: (...args: any[]) => void): this
-  removeAllListeners(event?: string): this
-  request<T = KeyValue, K = any>(params: {
-    method: string
-    params: T
-  }): Promise<K>
-}
+export type DioWalletProvider = DioxideJS.Provider
+export type DioWalletError = DioxideJS.ProviderRpcError
+export type DioWalleTxRequest = DioxideJS.TxRequest
 
 /**
  * Returns a Promise that resolves to the value of window.dioxide if it is
@@ -26,7 +15,8 @@ export interface DioxideWalletProvider {
  * @returns A Promise that resolves with the Provider if it is detected within
  * given timeout, otherwise null.
  */
-function detectDioxideProvider<T = DioxideWalletProvider>({
+
+function detectDioxideProvider<T = DioxideJS.Provider>({
   timeout = 3000,
 } = {}): Promise<T | null> {
   if (typeof timeout !== 'number') {
