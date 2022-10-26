@@ -1,3 +1,9 @@
+import * as DioxideJS from './interface'
+
+export type DioWalletProvider = DioxideJS.Provider
+export type DioWalletError = DioxideJS.ProviderRpcError
+export type DioWalleTxRequest = DioxideJS.TxRequest
+
 /**
  * Returns a Promise that resolves to the value of window.dioxide if it is
  * The Promise will not reject, but an error will be thrown if invalid options

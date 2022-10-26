@@ -19,8 +19,9 @@ module.exports = {
   rules: {
     indent: ['error', 2],
     'prefer-const': 'off',
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/prefer-namespace-keyword': 'off',
   },
 }
